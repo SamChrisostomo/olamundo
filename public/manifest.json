@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Olá Mundo",
+  "name": "Projeto de um blog pessoal desenvolvido no curso da Alura",
   "icons": [
     {
       "src": "favicon.ico",
