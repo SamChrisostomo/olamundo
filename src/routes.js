@@ -7,10 +7,12 @@ import Inicio from './paginas/Inicio';
 import NotFound from './paginas/NotFound';
 import Posts from './paginas/Posts';
 import Sobremim from './paginas/Sobremim';
+import ScrollToTop from './components/ScrollToTop';
 
 function AppRoutes() {
     return (
         <BrowserRouter>
+            <ScrollToTop />
             <Menu />
             <Routes>
                 <Route path='/' element={<PaginaPadrao />}>
@@ -18,7 +20,7 @@ function AppRoutes() {
                     <Route path='sobremim' element={<Sobremim />} />
                 </Route>
 
-                <Route path='posts/:id' element={<Posts />} />
+                <Route path='posts/:id/*' element={<Posts />} />
                 <Route path='*' element={<NotFound />} />
             </Routes>
             <Rodape />
