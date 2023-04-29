@@ -4,7 +4,8 @@ Esse projeto foi construido usando a biblioteca [React](https://github.com/faceb
 
 ## Objetivo do projeto
 
-Construir uma aplicação de Blog para colocar em prática as habilidades desenvolvidas no curso **React: desenvolvendo em React Router com JavaScript** da plataforma [Alura](https://cursos.alura.com.br).
+Construir uma aplicação de Blog para colocar em prática as habilidades desenvolvidas no curso\
+**React: desenvolvendo em React Router com JavaScript** da plataforma [Alura](https://cursos.alura.com.br).
 
 ## Tecnologias utilizadas
 
